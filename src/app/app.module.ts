@@ -3,8 +3,9 @@ import { NgModule } from "@angular/core";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { FortawesomeConfig } from './fortawesomeConfig';
+import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
+import { FortawesomeConfig } from "./fortawesomeConfig";
+import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 
 FortawesomeConfig.setupFortawesomeIcons();
 
@@ -15,7 +16,8 @@ FortawesomeConfig.setupFortawesomeIcons();
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
