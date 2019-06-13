@@ -1,6 +1,6 @@
 # Devsync
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
+GIT Repository: https://github.com/lokanx-devsync/devsync
 
 ## Development server
 
