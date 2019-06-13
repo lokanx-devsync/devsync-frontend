@@ -1,6 +1,6 @@
 # Devsync
 
-GIT Repository: https://github.com/lokanx-devsync/devsync
+GIT Repository: https://github.com/lokanx-devsync/devsync-frontend
 
 ## Development server
 
